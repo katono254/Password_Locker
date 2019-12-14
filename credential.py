@@ -25,8 +25,10 @@ class UserCredential:
 		"""
         UserCredential.credentials_list.append(self)
         UserCredential.generate_password()
-        @classmethod
-        def generate_password(cls,stringLength=8)
+    @classmethod
+
+
+    def generate_password (cls,stringLength=8):
         """
         this is the method to help users generate passwords for them
         """
@@ -34,6 +36,14 @@ class UserCredential:
         """
         Generate a random string of letters and digits for password
         """
-        
+        for list in cls.credentials_list:
+            print(list.p_code)
+            if list.p_code == "":
+               randomString = string.ascii_letters + string.digits
+               random_pass = ''.join(random.choice(randomString) for i in range(stringLength))
+               print("hre is "+random_pass)	
+               list.p_code = random_pass
+               
+
 
 		
