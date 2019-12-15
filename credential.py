@@ -43,7 +43,8 @@ class UserCredential:
                random_pass = ''.join(random.choice(randomString) for i in range(stringLength))
                print("hre is "+random_pass)	
                list.p_code = random_pass
-               
+               return random_pass
+               print("hre is "+list.p_code)
 
 
 		
