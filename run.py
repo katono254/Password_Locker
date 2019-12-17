@@ -11,7 +11,6 @@ def main():
 
     if answer == "n":
         print("Create an account\n")
-
         print("Enter Full Name:")
         f_name = input()
         print("Enter prefered username:")
