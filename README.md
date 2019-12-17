@@ -18,7 +18,7 @@ The project was built with python3.6
 Support phone number:0716613990
 Support email:blackrocket.47@gmail.com
 ### License
-*MIT License
+
 
 Copyright (c) [2019] [Greg Katono]
 
