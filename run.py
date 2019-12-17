@@ -97,7 +97,7 @@ def main():
                 else:
                     print("password is required please")
 
-                userCredentials = create_credential(media,email,password,uname)
+                UserCredential = create_credential(media,email,password,uname)
 
             elif short_code == "ex":
                 print("\nYou Logged out...")
