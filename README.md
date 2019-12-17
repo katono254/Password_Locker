@@ -11,7 +11,7 @@ Once the user runs the program they are prompted with two choices, if they have 
 Run ./run.py to run the app. Run python3.6 locker_test.py to run the test available in the program. Once you change any of the source files, run ./run.py to reload.
 
 ## Known Bugs
-Their are no known bugs.
+Their are no known bugs but if their is any please contact me in the section below.
 ## Technologies Used
 The project was built with python3.6
 ## Support and contact details
